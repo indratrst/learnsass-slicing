@@ -1,0 +1,14 @@
+// mixin
+@mixin tombol {
+  display: inline-block;
+  color: white;
+  background-color: $tercieryColor;
+  border-radius: 2em;
+  text-decoration: none;
+  padding: 0.2em 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  // font-family: "Raleway", sans-serif;
+}

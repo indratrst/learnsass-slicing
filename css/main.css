@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Raleway&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+}
+body::before {
+  content: "";
+  margin-right: 100px;
+  background-image: url(../bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 73vmax;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 992px) {
+  body::before {
+    opacity: 0.4;
+  }
+}
+
+.custom-nav .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  margin-top: -7px;
+}
+.custom-nav .navbar-brand span {
+  color: #17282f;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 0.4em;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #17282f;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 4.4em;
+  transition: 0.3s color ease;
+  border: 2px solid transparent;
+  width: 130px;
+  text-align: center;
+}
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #17282f;
+  width: 130px;
+}
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: -1em;
+  }
+}
+
+.custom-section {
+  margin-left: 30px;
+  margin-top: 6em;
+  position: relative;
+}
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 5.5rem;
+  color: #17282f;
+  white-space: nowrap;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.custom-section h3 {
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: #4179a0;
+  white-space: nowrap;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.custom-section p {
+  color: #4179a0;
+  font-size: 1rem;
+  margin-top: 2em;
+  font-family: "Raleway", sans-serif;
+  width: 500px;
+}
+.custom-section a {
+  margin-top: 0.8em;
+  display: inline-block;
+  color: white;
+  background-color: #29577c;
+  border-radius: 2em;
+  text-decoration: none;
+  padding: 0.2em 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+.custom-section a:hover {
+  color: #4179a0;
+  border: 1px solid #4179a0;
+  background-color: #a5b8e0;
+}
+.custom-section a img {
+  margin-left: 1.2em;
+  margin-top: -1px;
+  width: 15px;
+  height: 15px;
+}
+.custom-section .garis {
+  margin-top: 2em;
+  width: 150px;
+  border-bottom: 1.5px solid #4179a0;
+}
+@media screen and (max-width: 992px) {
+  .custom-section {
+    margin-top: 3em;
+    text-align: center;
+  }
+  .custom-section h2,
+.custom-section h3,
+.custom-section p {
+    text-shadow: 1px 1px 2px rgba(57, 60, 67, 0.4);
+  }
+  .custom-section h3 {
+    color: #818794;
+  }
+}/*# sourceMappingURL=main.css.map */
